@@ -7,7 +7,11 @@
  * Time: 15:20
  */
 \Larakit\StaticFiles\Manager::package('larakit/sf-angular-cropper')
+    ->usePackage('larakit/sf-jquery')
     ->usePackage('larakit/sf-angular')
     ->setSourceDir('public')
-    ->jsPackage('angular-image-cropper.js');
-\Larakit\NgAdminlte\LkNg::moduleRegister('imageCropper');
+    ->cssPackage('cropper.css')
+    ->jsPackage('cropper.js')
+    ->jsPackage('ngCropper')
+;
+\Larakit\NgAdminlte\LkNg::moduleRegister('ngCropper');

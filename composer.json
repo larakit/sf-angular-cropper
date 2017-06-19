@@ -4,6 +4,7 @@
     "version": "1.5.9",
     "license": "MIT",
     "require":{
+        "larakit/sf-jquery":"*",
         "larakit/sf-angular":"*"
     },
     "autoload": {
