@@ -10,8 +10,7 @@
     ->usePackage('larakit/sf-jquery')
     ->usePackage('larakit/sf-angular')
     ->setSourceDir('public')
-    ->cssPackage('cropper.css')
-    ->jsPackage('cropper.js')
-    ->jsPackage('ngCropper')
+    ->cssPackage('ngCropper.all.min.css')
+    ->jsPackage('ngCropper.all.min.js')
 ;
 \Larakit\NgAdminlte\LkNg::moduleRegister('ngCropper');
